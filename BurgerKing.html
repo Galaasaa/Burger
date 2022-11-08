@@ -1,0 +1,156 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Burger King</title>
+        <link rel="stylesheet" href="burgerking.css">
+    </head>
+    <body>
+        <div class="all">
+            <div class="sec">
+                <div class="top">
+                    <b> Хүргэлт</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+                    <b>Ресторан</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>Цоо шинэ</b>
+        
+                    
+                    <img class="BK" alt="Burger" src="https://wallpapers.com/images/high/smudged-burger-king-logo-jk8596a2e7uv9b47-2.jpg">
+
+                </div>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 2</div>
+                      <img src="https://www.burgerking.mn/files/20229/0__1666927724.jpg" alt="delicious burger" style="width:100%;
+                      height: 100%;">
+                      <div class="text"> BurgerKing </div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 2</div>
+                      <img src="https://www.burgerking.mn/files/20228/0__1663642254.jpg" alt="best meal" style="width: 100%;height: 100%;">
+                      <div class="text">BurgerKing</div>
+                    </div>
+                    
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                     
+                    </div>
+                    
+                    <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      let i;
+                      let slides = document.getElementsByClassName("mySlides");
+                      let dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+                
+                  
+                    
+                    <div class="fluid-container">
+              
+              
+                        <div class="page-section" id="projects">
+                         <div class="row-projects-holder">
+                            <div class="col-md-4-col-sm-6">
+                                <div class="project-item">
+                                 <img src="https://www.burgerking.mn/files/20217/0__1630049947.jpg" alt=" fast burger ">
+                                    <div class="project-hover">
+                                    </div>
+                                </div>
+                         </div>
+                        </div>
+                        <div class="col-md-4-col-sm-6">
+                            <div class="project-item">
+                                <img src="https://www.burgerking.mn/files/20217/0__1630050007.jpg" alt=" big burger">
+                                <div class="project-hover">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4-col-sm-6">
+                            <div class="project-item">
+                                <img src="https://www.burgerking.mn/files/20217/0__1630050103.jpg" alt="large burgerking>
+                                <div class="project-hover">    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4-col-sm-6">
+                            <div class="project-item">
+                                <img src="https://www.burgerking.mn/files/20217/0__1630050181.jpg" alt="pop burgerking">
+                                <div class="project-hover">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4-col-sm-6">
+                            <div class="project-item">
+                                <img src="https://www.burgerking.mn/files/20217/0__1630050267.jpg" alt="what is burgerking ">
+                                <div class="project-hover">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4-col-sm-6">
+                            <div class="project-item">
+                                <img src="https://www.burgerking.mn/files/20217/0__1630050401.jpg" alt="big burgerking">
+                                <div class="project-hover">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+              
+                <div class="bugd">
+                    <div class="footer">
+                        <h1>BEST BURGER KING</h1>
+                        <p class="button">Үйлчилгээний нөхцөл</p>
+                        <p class="button">Улаанбаатар хот, Чингэлтэй дүүрэг</p>
+                    </div>
+                   
+                        <div class="social-icons">
+                            <ul class="ul"> 
+                                <li><a href="https://www.facebook.com/burgerkinginmongolia"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>                               
+                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                
+                            </ul>
+                        </div> 
+                   
+                </div>
+            </div>
+        </div>
+     
+            
+    </body>
+    </html>

@@ -1,8 +1,8 @@
 .top  {display: flex;
 flex-direction: row;
 background: #f8dfb9;
-
-font-size: 18px;
+margin-left: 5%;
+font-size: 6%;
 height:12%;
 }
 .all{margin-bottom: 200px;}
@@ -10,7 +10,7 @@ img{width:100%;
   border: 2px solid #ffff;
   border-radius: 4%;
  }
-.BK{margin-left: 100px;
+.BK{margin-left: 10%;
     width: 10%;}
 
 b{margin-top: 26px;}

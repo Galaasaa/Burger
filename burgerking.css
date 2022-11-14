@@ -2,16 +2,16 @@
 flex-direction: row;
 background: #f8dfb9;
 margin-left: 5%;
-font-size: 6%;
+font-size: 80%;
 height:12%;
+text-align: center;
 }
 .all{margin-bottom: 200px;}
 img{width:100%;
   border: 2px solid #ffff;
   border-radius: 4%;
  }
-.BK{margin-left: 10%;
-    width: 10%;}
+
 
 b{margin-top: 26px;}
 h1{

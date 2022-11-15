@@ -2,13 +2,12 @@
 flex-direction: row;
 background: #f8dfb9;
 margin-left: 5%;
-font-size: 80%;
+font-size: 18px;
 height:12%;
-text-align: center;
 }
-.bk{padding-left: 10%;
-  width: 10%;}
-
+.top img{margin-left: 10%;
+    width: 10%;
+   height: 13%;}
 .all{margin-bottom: 200px;}
 img{width:100%;
   border: 2px solid #ffff;
@@ -33,7 +32,7 @@ h1{
         padding-top: 20px;
         padding-left: 30px;
         position: absolute;
-        top: 1670px;
+        top: 240%;
         width: 100%;}
 .slideshow-container {
             max-width: 1000px;

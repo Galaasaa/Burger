@@ -6,6 +6,9 @@ font-size: 80%;
 height:12%;
 text-align: center;
 }
+.bk{padding-left: 10%;
+  width: 10%;}
+
 .all{margin-bottom: 200px;}
 img{width:100%;
   border: 2px solid #ffff;
